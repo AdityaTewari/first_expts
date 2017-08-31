@@ -20,12 +20,20 @@
 *.rar
 *.tar
 *.zip
+ 
+##project files####
+#############################
+.spyderproject
+.spyderworkspace
+
 
 # Logs and databases #
 ######################
 *.log
 *.sql
 *.sqlite
+*.old
+*.txt
 
 # OS generated files #
 ######################
@@ -43,24 +51,35 @@ Thumbs.db
 *.pdf
 *.doc
 *.xsl
+*.eps
+*.old
+*.esp
 
 
 #videos#
 ######################
 *.avi
+*.gif
 
 #datasets#
 ######################
 *.mdb
+*.h5
 *.hdf
 *.jpg
 *.png
 *.tiff
-.eps
+*.lmdb
+*.pt
 
+####saved objects######
+*.p
+*.pkl
 
 #models#
 ######################
 *.solverstate
 *.caffemodel
-
+*.mdl
+*.json
+*.xml
